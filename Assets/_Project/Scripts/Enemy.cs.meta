@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8a17d402d7e0b204fad0cc430ca66547
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gun_1: {instanceID: 0}
+  - gun_2: {instanceID: 0}
+  - ammoPref: {fileID: 8346071095643624293, guid: c33c3d36e7f461e4fa99bb9d96eda5fb, type: 3}
+  - ps: {fileID: 4037475296551875547, guid: a1d5b5f87d5025746bb8037e8a092473, type: 3}
+  - prefabIndHP: {fileID: 4368917641135858692, guid: dbf8895c2d0f03041a6bd90918c63086, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
