@@ -1383,8 +1383,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1401,8 +1401,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3183,7 +3183,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 167.5, y: -205.6}
-  m_SizeDelta: {x: 267.8447, y: 44.645}
+  m_SizeDelta: {x: 300, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &67851315
 MonoBehaviour:
@@ -3359,7 +3359,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_Name
-      value: DoorChopshop
+      value: DoorChopshopRight
       objectReference: {fileID: 0}
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5079,7 +5079,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_Name
-      value: DoorChopshop
+      value: DoorChopshopLeft
       objectReference: {fileID: 0}
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9277,8 +9277,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9295,8 +9295,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14668,7 +14668,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_Name
-      value: DoorChopshop
+      value: DoorChopshopRight
       objectReference: {fileID: 0}
     - target: {fileID: 4313495381632674, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_RootOrder
@@ -14900,7 +14900,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_Name
-      value: DoorChopshop
+      value: DoorChopshopRight
       objectReference: {fileID: 0}
     - target: {fileID: 4313495381632674, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_RootOrder
@@ -17831,7 +17831,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_Name
-      value: DoorChopshop
+      value: DoorChopshopRight
       objectReference: {fileID: 0}
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22788,7 +22788,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_Name
-      value: DoorChopshop
+      value: DoorChopshopLeft
       objectReference: {fileID: 0}
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -23014,7 +23014,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_Name
-      value: DoorChopshop
+      value: DoorChopshopLeft
       objectReference: {fileID: 0}
     - target: {fileID: 4313495381632674, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_RootOrder
@@ -29899,84 +29899,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4134353195883994, guid: 28f2883c42945194b9a7df1e5c8544c5, type: 3}
   m_PrefabInstance: {fileID: 658632327}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &661366226
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2045504287}
-    m_Modifications:
-    - target: {fileID: 1478084894253566, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_Name
-      value: Sign_Director_01
-      objectReference: {fileID: 0}
-    - target: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_RootOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8323623
-      objectReference: {fileID: 0}
-    - target: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.83681995
-      objectReference: {fileID: 0}
-    - target: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.2014
-      objectReference: {fileID: 0}
-    - target: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.005
-      objectReference: {fileID: 0}
-    - target: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.4855906
-      objectReference: {fileID: 0}
-    - target: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.032
-      objectReference: {fileID: 0}
-    - target: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
---- !u!4 &661366227 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4727261532022858, guid: d2cb814e8c0ad0b469a58f05c9ae37d1, type: 3}
-  m_PrefabInstance: {fileID: 661366226}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &663962673 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1356947201743452, guid: 8ae9acfff905d5e4ca5a16a83cdb346a, type: 3}
@@ -33623,8 +33545,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -33641,8 +33563,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -36065,8 +35987,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -36083,8 +36005,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -37859,8 +37781,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -37877,8 +37799,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -38685,7 +38607,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_Name
-      value: DoorChopshop
+      value: DoorChopshopLeft
       objectReference: {fileID: 0}
     - target: {fileID: 4313495381632674, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_RootOrder
@@ -39339,7 +39261,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -167.5, y: -206}
-  m_SizeDelta: {x: 267.8447, y: 44.645}
+  m_SizeDelta: {x: 300, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &865019427
 MonoBehaviour:
@@ -69080,7 +69002,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_Name
-      value: DoorChopshop
+      value: DoorChopshopLeft
       objectReference: {fileID: 0}
     - target: {fileID: 4313495381632674, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_RootOrder
@@ -70254,7 +70176,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_Name
-      value: DoorChopshop
+      value: DoorChopshopRight
       objectReference: {fileID: 0}
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -72619,7 +72541,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -167.5, y: -206}
-  m_SizeDelta: {x: 267.8447, y: 44.645}
+  m_SizeDelta: {x: 300, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1535449614
 MonoBehaviour:
@@ -73040,7 +72962,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -167.5, y: -206}
-  m_SizeDelta: {x: 267.8447, y: 44.645}
+  m_SizeDelta: {x: 300, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1546017221
 MonoBehaviour:
@@ -73528,7 +73450,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_Name
-      value: DoorChopshop
+      value: DoorChopshopLeft
       objectReference: {fileID: 0}
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -83356,8 +83278,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -83374,8 +83296,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -83803,7 +83725,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 167.5, y: -205.6}
-  m_SizeDelta: {x: 267.8447, y: 44.645}
+  m_SizeDelta: {x: 300, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1745633535
 MonoBehaviour:
@@ -97927,7 +97849,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1504589903986668, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_Name
-      value: DoorChopshop
+      value: DoorChopshopRight
       objectReference: {fileID: 0}
     - target: {fileID: 4313495381632674, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       propertyPath: m_RootOrder
@@ -97983,9 +97905,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4313495381632674, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 411559466}
-    - targetCorrespondingSourceObject: {fileID: 4313495381632674, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 661366227}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 038aa72c1e688f8418a8cd09f031697d, type: 3}
 --- !u!4 &2045504287 stripped
@@ -100377,7 +100296,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 167.5, y: -205.6}
-  m_SizeDelta: {x: 267.8447, y: 44.645}
+  m_SizeDelta: {x: 300, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2089175165
 MonoBehaviour:
@@ -103046,7 +102965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4770284082171638245, guid: d453edf4e091b0042b798d6fcd23e1ce, type: 3}
       propertyPath: maxHealth
-      value: 1
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 9037948491265738679, guid: d453edf4e091b0042b798d6fcd23e1ce, type: 3}
       propertyPath: dronesPrefab
