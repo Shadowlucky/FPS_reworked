@@ -222,10 +222,10 @@ public class Player : MonoBehaviour
     {
         if (GameManager.isReloading)
             return;
-
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.mouseScrollDelta.y < 0)
             SwitchWeapon(0);
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        else if (Input.GetKeyDown(KeyCode.Alpha2) || Input.mouseScrollDelta.y > 0)
             SwitchWeapon(1);
     }
 
