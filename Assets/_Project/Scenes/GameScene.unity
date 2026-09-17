@@ -17691,6 +17691,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5725971261591633347, guid: 31f3d9f3508fa0e489b944fa51f67177, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725971261591633347, guid: 31f3d9f3508fa0e489b944fa51f67177, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 5725971261591633347, guid: 31f3d9f3508fa0e489b944fa51f67177, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 7297059071310592925, guid: 31f3d9f3508fa0e489b944fa51f67177, type: 3}
       propertyPath: m_fontAsset
       value: 
